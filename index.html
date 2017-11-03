@@ -23,168 +23,177 @@
 				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 			</ul>
 			<ul class="givusacall">
-				<li><h1>N°1 EN ASSURANCE DES VOITURES DE COLLECTION</h1></li>
-			</ul>
-			<ul class="logreg">
-				<li><a href="#">Login </a> </li>
-				<li><a href="#"><span class="register">Register</span></a></li>
-			</ul>
+			<li><h1>N°1 EN ASSURANCE DES VOITURES DE COLLECTION</h1></li>
+		</ul>
+		<ul class="logreg">
+			<li><a href="#">Login </a> </li>
+			<li><a href="#"><span class="register">Register</span></a></li>
+		</ul>
+</div>
+<!-- Navbar Up -->
+<nav class="topnavbar navbar-default topnav">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+				<span class="sr-only"> Toggle navigaion</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand logo" href="#"><img src="image/logo1.png" alt="logo" height="150" width="150"></a>
+		</div>	 
 	</div>
-	<!-- Navbar Up -->
-	<nav class="topnavbar navbar-default topnav">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
-					<span class="sr-only"> Toggle navigaion</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand logo" href="#"><img src="image/logo1.png" alt="logo" height="150" width="150"></a>
-			</div>	 
-		</div>
-		<div class="collapse navbar-collapse" id="upmenu">
-			<ul class="nav navbar-nav" id="navbarontop">
-				<li class="active"><a href="#">HOME</a> </li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+	<div class="collapse navbar-collapse" id="upmenu">
+		<ul class="nav navbar-nav" id="navbarontop">
+			<li class="active"><a href="#">HOME</a> </li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES <span class="caret"></span></a>
+				<ul class="dropdown-menu dropdowncostume">
+					<li><a href="#">Sport</a></li>
+					<li><a href="#">Berline</a></li>
+					<li><a href="#">4x4</a></li>
+				</ul>
+			</li>
+			<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choix des garanties<span class="caret"></span></a>
 					<ul class="dropdown-menu dropdowncostume">
+						<li><a href="#">Tiers confort</a></li>
+						<li><a href="#">Tiers vol</a></li>
+						<li><a href="#">Tous risques</a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="contact.html">CONTACT</a>
+
+			</li>
+			<button onclick="window.location.href='#comparateur';"><span class="comparateur">COMPARATEUR</span></button>
+		</ul>
+	</div>
+</nav>
+</div>
+<!--_______________________________________ Carousel__________________________________ -->
+<div class="allcontain">
+<div id="carousel-up" class="carousel slide" data-ride="carousel" data-interval="3000">
+	<div class="carousel-inner " role="listbox">
+		<div class="item active">
+			<img src="image/oldcar.jpg" alt="oldcar">
+			<div class="carousel-caption">
+				<h2>Porsche 356</h2>
+				<p>La Porsche 356 fut la première voiture de la marque allemande Porsche. Conçue par Ferry Porsche sur les bases mécaniques de la Volkswagen Coccinelle (par souci d'économie) et dessinée par Erwin Komenda, elle sera produite en série de 1948 à 1965.<br></p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="image/benz.jpg" alt="benz">
+			<div class="carousel-caption">
+				<h2>Mercedes 190SL</h2>
+				<p>La Mercedes 190SL (appellation interne W121 BII sur châssis monocoque R121) est un modèle d’automobile du constructeur allemand Mercedes-Benz, roadster coupé cabriolet, construite de 1955 à 1963, dérivée de la Mercedes-Benz 300SL et entrée depuis dans la légende des automobiles de collection de prestige.<br></p>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default midle-nav">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
+					<h1>SEARCH TEXT</h1>
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarmidle">
+			<div class="searchtxt">
+				<h1>Moteur de recherche</h1>
+			</div>
+			<form class="navbar-form navbar-left searchformmargin" role="search">
+				<div class="form-group">
+					<input type="text" class="form-control searchform" placeholder="Entrer modèle">
+				</div>
+			</form>
+			<ul class="nav navbar-nav navbarborder">
+				<li class="li-category">
+					<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Categorie<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+					<ul class="dropdown-menu" id="mydd">
 						<li><a href="#">Sport</a></li>
 						<li><a href="#">Berline</a></li>
 						<li><a href="#">4x4</a></li>
 					</ul>
 				</li>
-				<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Choix des garanties<span class="caret"></span></a>
-						<ul class="dropdown-menu dropdowncostume">
-							<li><a href="#">Tiers confort</a></li>
-							<li><a href="#">Tiers vol</a></li>
-							<li><a href="#">Tous risques</a></li>
-						</ul>
+				<li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Annee Min<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+					<ul class="dropdown-menu" id="mydd2">
+						<li><a href="#">1940</a></li>
+						<li><a href="#">1950</a></li>
+						<li><a href="#">1960</a></li>
+					</ul>
 				</li>
-				<li>
-					<a href="contact.html">CONTACT</a>
- 
+				<li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Annee Max<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+					<ul class="dropdown-menu" id="mydd3">
+						<li><a href="#">1980</a></li>
+						<li><a href="#">1990</a></li>
+						<li><a href="#">2000</a></li>
+					</ul>
 				</li>
+				<li class="li-slideprice">
+					<p> <label class="slidertxt" for="amount">Prix </label>
+						<input class="priceslider" type="text" id="amount" readonly="readonly">
+					</p>
+						<div id="slider-range"></div>
+						
+				</li>
+				<li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
 			</ul>
+
 		</div>
 	</nav>
 </div>
-<!--_______________________________________ Carousel__________________________________ -->
-<div class="allcontain">
-	<div id="carousel-up" class="carousel slide" data-ride="carousel" data-interval="3000">
-		<div class="carousel-inner " role="listbox">
-			<div class="item active">
-				<img src="image/oldcar.jpg" alt="oldcar">
-				<div class="carousel-caption">
-					<h2>Porsche 356</h2>
-					<p>La Porsche 356 fut la première voiture de la marque allemande Porsche. Conçue par Ferry Porsche sur les bases mécaniques de la Volkswagen Coccinelle (par souci d'économie) et dessinée par Erwin Komenda, elle sera produite en série de 1948 à 1965.<br></p>
-				</div>
-			</div>
-			<div class="item">
-				<img src="image/benz.jpg" alt="benz">
-				<div class="carousel-caption">
-					<h2>Mercedes 190SL</h2>
-					<p>La Mercedes 190SL (appellation interne W121 BII sur châssis monocoque R121) est un modèle d’automobile du constructeur allemand Mercedes-Benz, roadster coupé cabriolet, construite de 1955 à 1963, dérivée de la Mercedes-Benz 300SL et entrée depuis dans la légende des automobiles de collection de prestige.<br></p>
-				</div>
-			</div>
-		</div>
-		<nav class="navbar navbar-default midle-nav">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
-						<h1>SEARCH TEXT</h1>
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse" id="navbarmidle">
-				<div class="searchtxt">
-					<h1>Moteur de recherche</h1>
-				</div>
-				<form class="navbar-form navbar-left searchformmargin" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control searchform" placeholder="Entrer modèle">
-					</div>
-				</form>
-				<ul class="nav navbar-nav navbarborder">
-					<li class="li-category">
-						<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Categorie<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
-						<ul class="dropdown-menu" id="mydd">
-							<li><a href="#">Sport</a></li>
-							<li><a href="#">Berline</a></li>
-							<li><a href="#">4x4</a></li>
-						</ul>
-					</li>
-					<li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Annee Min<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
-						<ul class="dropdown-menu" id="mydd2">
-							<li><a href="#">1940</a></li>
-							<li><a href="#">1950</a></li>
-							<li><a href="#">1960</a></li>
-						</ul>
-					</li>
-					<li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Annee Max<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
-						<ul class="dropdown-menu" id="mydd3">
-							<li><a href="#">1980</a></li>
-							<li><a href="#">1990</a></li>
-							<li><a href="#">2000</a></li>
-						</ul>
-					</li>
-					<li class="li-slideprice">
-						<p> <label class="slidertxt" for="amount">Prix </label>
-							<input class="priceslider" type="text" id="amount" readonly="readonly">
-						</p>
-							<div id="slider-range"></div>
-							
-					</li>
-					<li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
-				</ul>
- 
-			</div>
-		</nav>
-	</div>
 </div>
 <!-- ____________________Featured Section ______________________________--> 
 <div class="allcontain">
-	<div class="feturedsection">
-		<h1 class="text-center"><span class="bdots">&bullet;</span>S I M U L A T I O N<span class="carstxt">D E V I S</span>&bullet;</h1>
-	</div>
-	<div class="feturedimage">
-		<div class="row firstrow">
-			<div class="col-lg-6 costumcol colborder1">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
-						<img src="image/featurporch.jpg" alt="porsche">
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
-						<div class="featurecontant">
-							<h1>TIERS CONFORT</h1>
-							<p>"L'assurance Tiers Confort, aussi appelée Tiers Intermédiaire, couvre non seulement les dégâts que vous pourriez causer à autrui, mais également les dommages sur votre propre véhicule en cas de vol ou d'incendie. Le bris de glace est également couvert.<br></p>
-			 				<h2>Prix 450 &euro;</h2>
-			 				<button id="btnRM" onclick="rmtxt()">En savoir plus</button>
-						</div>
+<div class="feturedsection">
+	<h1 class="text-center"><span class="bdots">&bullet;</span>S I M U L A T I O N<span class="carstxt">D E V I S</span>&bullet;</h1>
+</div>
+<div class="feturedimage">
+	<div class="row firstrow">
+		<div class="col-lg-6 costumcol colborder1">
+			<div class="row costumrow">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
+					<img src="image/featurporch.jpg" alt="porsche">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+					<div class="featurecontant">
+						<h1>TIERS CONFORT</h1>
+						<p>"L'assurance Tiers Confort, aussi appelée Tiers Intermédiaire, couvre non seulement les dégâts que vous pourriez causer à autrui, mais également les dommages sur votre propre véhicule en cas de vol ou d'incendie. Le bris de glace est également couvert.<br></p>
+						<h2>Prix 450 &euro;</h2>
+						<button id="btnRM" onclick="rmtxt()">En savoir plus</button>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-						<img src="image/featurporch1.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
-						<div class="featurecontant">
-							<h1>TOUS RISQUES</h1>
-							<p>"Une assurance auto au tiers ne couvre que la responsabilité civile du conducteur, c'est-à-dire les dommages qu'il pourrait causer involontairement à autrui : elle ne contient donc aucune garantie contre le vol du véhicule. Pour en bénéficier, il convient soit de souscrire une extension de garantie, soit de signer directement une assurance tous risques, qui inclut la garantie vol.<br></p>
-			 				<h2>Prix 1250 &euro;</h2>
-			 				<button id="btnRM2">En savoir plus</button>
-						</div>
+		</div>
+		<div class="col-lg-6 costumcol colborder2">
+			<div class="row costumrow">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+					<img src="image/featurporch1.jpg" alt="porsche1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+					<div class="featurecontant">
+						<h1>TOUS RISQUES</h1>
+						<p>"Une assurance auto au tiers ne couvre que la responsabilité civile du conducteur, c'est-à-dire les dommages qu'il pourrait causer involontairement à autrui : elle ne contient donc aucune garantie contre le vol du véhicule. Pour en bénéficier, il convient soit de souscrire une extension de garantie, soit de signer directement une assurance tous risques, qui inclut la garantie vol.<br></p>
+						<h2>Prix 1250 &euro;</h2>
+						<button id="btnRM2">En savoir plus</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+</div>
+
+<!-- ________________________COMPARATEUR SECTION _______________________-->
+<div class="comparateur">
+	<br>
+	<br>
+	<A NAME="comparateur"><h1 class="text-center"><img align="middle" src="image/comparateur.png" alt="comparateur" height="550" width="600"></h1></A>
+</div>
+
 <!-- ________________________LATEST CARS SECTION _______________________-->
 <div class="latestcars">
 	<h1 class="text-center">&bullet; DERNIERES VOITURES &bullet;</h1>
